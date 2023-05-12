@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add @reef-defi/hardhat-reef
+
+PATH: 
+  C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Users\hi\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\PostgreSQL\15\bin;C:\Users\hi\AppData\Local\Programs\Python\Python310;C:\Users\hi\AppData\Local\Programs\Python\Python310\Scripts;C:\flutter\bin;C:\Program Files\Java\jdk-18\bin;C:\Program Files\Java\jdk-18\lib;C:\Users\hi\AppData\Local\Android\Sdk\emulator;C:\Users\hi\AppData\Local\Android\Sdk\platform-tools;C:\WebDriver;C:\xampp74\php;C:\ProgramData\ComposerSetup\bin;C:\Users\hi\AppData\Local\Android\Sdk\tools;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Users\hi\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\hi\.cargo\bin;D:\1.ToolShop\1.DevTools\Java\apache-maven-3.8.5\bin;C:\Gradle\gradle-8.1.1\bin;D:\1.ToolShop\1.DevTools\Java\spring-2.5.0\bin;C:\Users\hi\.cargo\bin;C:\Users\hi\AppData\Local\Microsoft\WindowsApps;C:\Users\hi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\hi\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\JetBrains\WebStorm 2022.2.3\bin;;C:\Program Files\heroku\bin;C:\Program Files\Java\jdk-18\bin;C:\Users\hi\AppData\Roaming\Composer\vendor\bin;C:\Users\hi\AppData\Local\Programs\EmEditor;C:\Users\hi\AppData\Local\GitHubDesktop\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/rxjs/-/rxjs-7.8.1.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\hi\AppData\Roaming\nvm\v16.15.0\node_modules\yarn\lib\cli.js:141517:19)
+      at Object.onceWrapper (node:events:641:28)
+      at ClientRequest.emit (node:events:527:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:771:9)
+      at Object.onceWrapper (node:events:641:28)
+      at TLSSocket.emit (node:events:539:35)
+      at TLSSocket.Socket._onTimeout (node:net:516:8)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7)
+
+npm manifest: 
+  {
+    "devDependencies": {
+      "@nomiclabs/hardhat-ethers": "^2.2.3",
+      "@nomiclabs/hardhat-etherscan": "^3.1.7",
+      "@nomiclabs/hardhat-waffle": "^2.0.5",
+      "chain": "^0.4.0",
+      "dotenv": "^16.0.3",
+      "ethereum-waffle": "^4.0.10",
+      "ethers": "^5.7.2",
+      "hardhat": "^2.14.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
